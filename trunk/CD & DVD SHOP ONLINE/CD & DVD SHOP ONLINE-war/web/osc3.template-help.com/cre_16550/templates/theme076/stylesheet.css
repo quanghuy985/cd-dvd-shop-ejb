@@ -1,0 +1,577 @@
+/*
+  $Id: stylesheet.css,v 1.1.1.1 2003/09/18 19:06:01 wilt Exp $
+
+  osCommerce, Open Source E-Commerce Solutions
+  http://www.oscommerce.com
+
+  Copyright (c) 2003 osCommerce
+
+  Released under the GNU General Public License
+*/
+
+.cat_description {  font-family :tahoma; font-size : 10px; color: #800000; font-weight: bold }
+.boxText { font-family:tahoma; font-size: 10px; }
+.centertable { border-left:1px solid #798CCC; border-right:1px solid #798CCC; background-color:#D2DBF5 }
+.navBlue     { color: #FF0000; font-size: 8pt; font-family: Verdana }
+.errorBox { font-family :tahoma; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+.stockWarning { font-family :tahoma; font-size : 10px; color: #cc0033; }
+.productsNotifications {}
+.orderEdit { font-family :tahoma; font-size : 10px; color: #000000; text-decoration: none; }
+
+body {
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	}
+img {
+	border:0;
+	}	
+A {
+  color: #000000;
+  text-decoration: underline;
+}
+
+
+
+FORM {
+        display: inline;
+}
+
+
+TR.headerNavigation {
+  background: #bbc3d3;
+}
+
+TD.headerNavigation {
+  font-family:tahoma;
+  font-size: 11px;
+  background: #bbc3d3;
+  color: #566268;
+  font-weight : bold;
+}
+td 		{
+		
+		}
+
+A.headerNavigation { 
+ color: #424242;
+}
+
+A.headerNavigation:hover {
+ color: #424242;
+}
+
+TR.headerError {
+  background: #ff0000;
+}
+
+TD.headerError {
+  font-family:tahoma
+  font-size: 12px;
+  background: #ff0000;
+  color: #000000;
+  font-weight : bold;
+  text-align : center;
+}
+
+TR.headerInfo {
+  background: #00ff00;
+}
+
+TD.headerInfo {
+  font-family:tahoma;
+  font-size: 12px;
+  background: #00ff00;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+td .select{ 
+
+ margin:0 0 9px 0px; width:134px; height:20px; 
+
+ 
+}
+
+td select {
+
+width:134px;
+}
+
+.infoBoxContents {
+
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+
+.infoBoxNoticeContents {
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+.infoBoxNoticeContents {
+  font-family:tahoma;
+  font-size: 10px;
+}
+
+TD.infoBoxHeading {
+  font-family:tahoma;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000; padding-top:4
+}
+
+TD.infoBox, SPAN.infoBox {
+  font-family:tahoma;
+  font-size: 10px;
+  color:#000000;
+}
+
+TD.contentBoxHeading {
+  font-family:tahoma;
+  font-size: 10px;
+  font-weight: bold;
+  color: #534F4D; padding-top:5
+}
+
+TR.accountHistory-odd,
+TR.addressBook-odd,
+TR.alsoPurchased-odd,
+TR.payment-odd,
+TR.productListing-odd,
+TR.productReviews-odd,
+TR.upcomingProducts-odd,
+TR.shippingOptions-odd {
+;
+}
+
+TR.accountHistory-even,
+TR.addressBook-even,
+TR.alsoPurchased-even,
+TR.payment-even,
+TR.productListing-even,
+TR.productReviews-even,
+TR.upcomingProducts-even,
+TR.shippingOptions-even
+ {  ;
+}
+
+TABLE.productListing {
+  border-spacing: 1px
+}
+
+.productListing-heading {
+  font-family: tahoma;
+  font-size: 10px;
+  color: #000000;
+  font-weight:bold;
+ text-align:center;
+}
+
+TD.productListing-data {
+  font-family:tahoma;
+  font-size: 10px;
+  color:#000000;
+  vertical-align:middle;
+  padding:0 5px 0 5px;
+}
+TD.productListing-data a{ text-decoration:none; color:#000000;}
+TD.productListing-data a b{
+		color:#000000;
+		text-decoration:none;
+		margin:0 0 0 5px;
+		}
+TD.productListing-data2 {
+  font-family:tahoma;
+  font-size: 10px;
+  padding-top:10px;
+}
+
+A.pageResults {
+  color: #000000;
+}
+
+a:hover.pageResults {
+  color: #000000;
+}
+
+.navBbrown a{ color:#000000; text-decoration:none;}
+
+TR.subBar {
+  background: #f4f7fd;
+}
+
+TD.subBar {
+  font-family:tahoma;
+  font-size: 10px;
+  color: #E46709;
+}
+
+.main, P.main, .main a{ 
+   
+  font-family: tahoma;
+  font-size: 11px;
+  color:#787878;
+  padding:0px 10px 0px 10px;
+}
+TD.main2, P.main2 {
+  font-family:tahoma;
+  font-size: 11px;
+  line-height: 1.5;
+  padding:3px;
+  color:#000000
+  padding:10px; 
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family:tahoma;
+  font-size: 11px;
+  color:#000000;
+}
+
+TD.smallText a{
+  font-family:tahoma;
+  font-size: 11px;
+  color:#000000;
+}
+
+TD.accountCategory {
+  font-family:tahoma;
+  font-size: 13px;
+  color: #aabbdd;
+}
+
+TD.fieldKey {
+  font-family:tahoma;
+  font-size: 11px;
+  font-weight: bold;
+  color:#000000
+}
+
+TD.fieldValue {
+  font-family:tahoma;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family:tahoma;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.category_desc {
+  font-family:tahoma;
+  color:#000000;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+SPAN.newItemInCart {
+  font-family:tahoma;
+  font-size: 10px;
+  color: #ff0000;
+}
+
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family:tahoma;
+  font-size: 11px;
+}
+select {
+		width:200px;
+		}
+TEXTAREA {
+  width: 100%;
+  font-family:tahoma;
+  font-size: 11px;
+}
+
+SPAN.greetUser {
+  font-family:tahoma;
+  font-size: 12px;
+  color: #f0a480;
+  font-weight: bold;
+}
+
+TABLE.formArea {
+  background: #f1f9fe;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+TD.formAreaTitle {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #c76170;
+  font-weight: bold;
+}
+
+SPAN.productSpecialPrice {
+  font-family:tahoma;
+  color: #E46709;
+}
+
+SPAN.errorText {
+  font-family:tahoma;
+  color: #ff0000;
+}
+
+.moduleRow { }
+.moduleRowOver { background-color: #D7E9F7; cursor: pointer; cursor: hand; }
+.moduleRowSelected { background-color: #E9F4FC; }
+
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #8c8c8c; }
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #980133; }
+
+
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #ffb3b5; }
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #E46709; }
+
+
+
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+
+
+TABLE.linkListing {
+  border: 0px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  border-spacing: 1px;
+}
+
+.linkListing-heading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+TD.linkListing-data, TD.linkListing-data a{
+  border-right: 0px solid #D6D6D6;
+  border-bottom: 0px solid #D6D6D6;
+  padding: 4px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color:#000000;
+}
+
+TR.linkListing-odd {
+}
+
+TR.linkListing-even {
+}
+
+
+
+TR.ShowCartDetails, TD.ShowCartDetails, P.ShowCartDetails {
+
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+  color=: #BDCAF0;
+}
+
+
+TR.HeaderPageLinksLeft, TD.HeaderPageLinksLeft, P.HeaderPageLinksLeft {
+  background-image: url('images/button_blank_left.gif');
+}
+TR.HeaderPageLinksRight, TD.HeaderPageLinksRight, P.HeaderPageLinksRight {
+  background-image: url('images/button_blank_right.gif');
+}
+TR.HeaderPageLinks, TD.HeaderPageLinks, P.HeaderPageLinks {
+  background-image: url('images/button_blank_middle.gif');
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #E46709
+}
+A.HeaderPageLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+a:hover.HeaderPageLinks {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+
+  color: #00FF00;
+}
+
+TD.cookieUsage {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #000000;
+  color: #000000;
+}
+
+
+.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
+.TR.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #808080; }
+.TD.attributeBoxContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; background-color: #C0C0C0; }
+
+.storyboxtitle  {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:link           {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:active         {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:visited        {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; BACKGROUND: none;}
+.storyboxtitle A:hover          {FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: underline; BACKGROUND: none;}
+.yearHeader { font-family: Helvetica, Arial, Verdana; font-size: 14px; font-weight: bold; color: #000000; text-decoration: none;} .calendarMonth { background-color: #BBC3D3; cursor: default; width: 100%;}
+.calendarHeader { font-family: Helvetica, Arial, Verdana; font-size: 11px; font-weight: bold; color: #000000; text-decoration: none; height: 22px;}
+.calendarToday { font-family: Arial, Verdana; font-size: 10px; color: #000000; background-color: #FFCF00; padding-left : 3px; text-decoration: none; border:1px solid #000000; height: 22px; width: 18px;}
+.calendarWeekend { font-family: Arial, Verdana; font-size: 10px; color: #000000; background-color: #CAEEFF; padding-left : 3px; line-height: 14px; text-decoration: none; border:1px solid #000000; height: 22px; width: 18px;}
+.calendar { font-family: Arial, Verdana; font-size: 10px; color: #000000; padding-left : 3px; line-height: 14px; text-decoration: none; border:1px solid #000000; height: 22px; width: 18px; }
+.event { font-family: Arial, Verdana; font-size: 11px; color: #000000; text-decoration: none; border:1px solid #E6E6E6; }
+.empty { background-color: #F0FAFF; line-height: 14px; height: 22px; width: 18px; }
+.calendar A:hover, .calendar A:link, .calendar A:visited, .calendar A:visited:hover, .yearHeader A:hover {color: red; text-decoration: underline;}
+.calendarWeekend A:hover, .calendarWeekend A:link, .calendarWeekend A:visited, .calendarWeekend A:visited:hover {color: red; text-decoration: underline;}
+.calendarToday A:hover, .calendarToday A:link, .calendarToday A:visited, .calendarToday A:visited:hover {color: red; text-decoration: underline;}
+
+
+/* MY*/
+body{
+padding:0px;
+margin:0px;
+background:#353535;
+}
+
+td {vertical-align:top;}
+
+a:hover{text-decoration:none;}
+
+img { border:0px;}
+
+.main_text, table, li, input, textarea, select
+	{
+		font-family:Tahoma;
+		font-size:10px;
+		line-height:12px;
+		color:#787878;
+	}
+	
+.bg { background:url(images/bg.gif)}
+.bg-k { background:url(images/bg-k.gif) top left no-repeat}
+.bg-k2 { background:url(images/bg-k2.gif) top right no-repeat}
+
+.bg-pop { background:url(images/bg-toppop.jpg) top no-repeat}
+.bg-pop2 { background:url(images/bg-botpop.gif) top no-repeat}
+
+.bg-bk { background:url(images/bg-bk.gif) bottom left no-repeat}
+.bg-bk2 { background:url(images/bg-bk2.gif) bottom right no-repeat}
+
+.bg-right { background:url(images/bg-right.gif) top right no-repeat}
+.bg-mid { background:url(images/bg-leftflip.jpg) left top repeat-x}
+.bg-left{ background:url(images/bg-left.jpg) top left no-repeat}
+
+.bg-hl { background:url(images/bg-hl.gif) top left no-repeat}
+.bg-hr { background:url(images/bg-hr.gif) top right no-repeat}
+.bg-hm { background:url(images/bg-hm.gif) repeat-x}
+
+.tall-b { background:url(images/tall-b.gif) bottom repeat-x}
+
+.bg-hlp { background:url(images/bg-hlp.gif) top left no-repeat}
+.bg-hrp { background:url(images/bg-hrp.gif) top right no-repeat}
+
+.bg-col { background:#E5E5D3 url(images/bg-bk3.gif) bottom left no-repeat}
+.bg-col2 { background:url(images/bg-bk4.gif) bottom right no-repeat}
+
+.bg2-col { background:#FFFFFF url(images/bg-bl.gif) bottom left no-repeat}
+.bg2-col2 { background:url(images/bg-br.gif) bottom right no-repeat}
+
+.h_text { color:#BB5E11}
+.h2_text { color:#3C3C3C}
+.h2_text a{ color:#3C3C3C; text-decoration:none}
+.h2_text a:hover{text-decoration:underline}
+
+.h3_text { color:#FFFFFF}
+.h4_text { color:#A45409}
+.h5_text { color:#68685B}
+.h6_text { color:#689115}
+.h6_text a{ color:#689115;}
+
+.h7_text { color:#29292B}
+
+.close { font-size:11px; color:#29292B}
+.close a{ color:#29292B; text-decoration:none}
+.close a:hover{text-decoration:underline}
+	
+.c_text { color:#FFFFFF; line-height:16px; font-size:11px}
+.c_text a{ color:#FFFFFF; text-decoration:none}
+.c_text a:hover{text-decoration:underline}
+
+.padding { padding-bottom:69px}
+.padding2 { padding-bottom:4px}
+.padding3 { padding-bottom:13px}
+.padding4 { padding:6px 13px 14px 13px;}
+.padding5 { padding-bottom:10px}
+.padding6 { padding-bottom:3px}
+.padding7 { padding-bottom:22px}
+
+.margin { margin-left:18px}
+.margin2 { margin-right:30px}
+.margin3 { margin-left:12px}
+.margin4 { margin-right:15px}
+.margin5 { margin-left:4px}
+.margin6 { margin-right:26px}
+.margin7 { margin-left:7px}
+.margin8 { margin-left:3px}
+.margin9 { margin-right:11px}
+.margin10 { margin-right:14px}
+.margin11 { margin-right:16px}
+.margin12 { margin-left:28px}
+
+.fs { font-size:13px}
+.fs2 { font-size:15px}
+.fs3 { font-size:11px}
+
+.lh { line-height:13px}
+
+.vam { vertical-align:middle}
+
+.no_class, form, .no_class td
+	{
+		width:auto;
+		height:auto;
+		margin:0px;
+		padding:0px;
+		border:0px;
+	}
+
+.line { background:#E5E5D3; height:1px}
+
+.pic { background:url(images/bg-pic.gif) no-repeat; padding:8px 9px 10px 9px}
+.pic2 { background:url(images/bg-pic.gif) no-repeat; padding:8px 0px 10px 0px; width:115px}
+
+.input	{width:38px; height:18px; border-color:#818181; border-width:1px; background-color:#ffffff; border-style:solid; padding-right:5px; text-align:right}
+
+.select1 { width:144px; height:17px; vertical-align:middle; color:#818181; font-size:11px}
+.select2 { width:105px; height:20px; vertical-align:middle; color:#818181; font-size:11px}
+.select3 { width:155px; height:20px; vertical-align:middle; color:#818181; font-size:11px}
+
+ul {margin:0; padding:0; list-style:none}
+li  {background:url(images/a1.gif) no-repeat left center; margin:0px 0px 0px 0px; padding:0px 0px 0px 17px}
+li a  {font-family:Tahoma; font-size:11px; line-height:21px; color:#484747}
+
+.ul2 li  {background:url(images/a1.gif) no-repeat left center; margin:0px 0px 0px 0px; padding:0px 0px 0px 17px}
+.ul2 li a  {font-family:Tahoma; font-size:11px; line-height:22px; color:#393939; text-decoration:none}
+.ul2 li a:hover { text-decoration:underline}
+
+.pageHeading {color:#A45409; font-weight:bold; font-size:12px; padding:10px 15px 0px 15px;}
+
+ol {list-style:none; padding:0; margin:0;}
+ol li {background-position:0px 5px;}
+ol li a {line-height:14px;}
+
+.block li {background-position:0px 9px;}
