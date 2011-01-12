@@ -32,7 +32,7 @@ public class ConnectionDB {
         this.port = "1433";
         this.databaseName = "CD_Shop_EJB";
         this.userName = "sa";
-        this.password = "sasa";
+        this.password = "fat123456";
         this.openConnection();
     }
 

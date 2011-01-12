@@ -54,34 +54,34 @@
                         <jsp:useBean id="abc" class="BOL.ProductBOL" scope="request"/>
                         <%
                                     ArrayList<Product> list = new ArrayList<Product>();
-                                    list = abc.GetAllProduct();
+                                    list = abc.getallProduct();
                                     if (list.size() > 0) {
                                         for (int i = 0; i < list.size(); i++) {
                         %>
 
-                        <form method="post" action="AddToCart">
+                        <form method="post" action="">
                             <tr>
                                 <td >
                                     <table width="100%" cellspacing="0" cellpadding="0" border="0">
                                         <tbody><tr>
                                                 <td width="150" valign="top" align="left" rowspan="5">
                                                     <img style="height: 100px; width: 100px; border-width: 0px;"
-                                                         src=<%= list.get(i).getImage()%>></img>
+                                                         src=<%= list.get(i).getProImage()%>></img>
                                                 </td>
                                                 <td valign="top" align="left">
-                                                    <span style="color: blue; font-weight: bold;" id="Label" class="title"><%= list.get(i).getName()%></span>
+                                                    <span style="color: blue; font-weight: bold;" id="Label" class="title"><%= list.get(i).getProName()%></span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td valign="top" align="left">Price:
-                                                    <span style="color: Red; font-weight: bold;" id="Label2"><%= list.get(i).getPrice()%></span>
+                                                    <span style="color: Red; font-weight: bold;" id="Label2"><%= list.get(i).getProPrice()%></span>
                                                     &nbsp;<span class="style1">USD</span></td>
                                             </tr>
                                             <tr>
                                                 <td valign="top" align="left">
-                                                    <input type="hidden" value=<%= list.get(i).getProductID()%> name="ProductID"></input>
-                                                    <input type="hidden" value=<%= list.get(i).getName()%> name="ProductName"></input>
-                                                    <input type="hidden" value=<%= list.get(i).getPrice()%> name="Price"></input>
+                                                    <input type="hidden" value=<%= list.get(i).getProID()%> name="ProductID"></input>
+                                                    <input type="hidden" value=<%= list.get(i).getProName()%> name="ProductName"></input>
+                                                    <input type="hidden" value=<%= list.get(i).getProPrice()%> name="Price"></input>
                                                     <input type="submit" id="btnSubmit" class="button" value="Add to cart"></input>
                                                 </td>
                                             </tr>
